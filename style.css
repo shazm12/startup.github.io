@@ -1,0 +1,53 @@
+body,
+html {
+	width: 100%;
+	height:100%;
+	font-family: 'Indie Flower', cursive;
+	 background: url(startup.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+h1 {
+	color:#2b84ad;
+}
+hr {
+	border-color: beige;
+	max-width: 65px;
+	border-width: 5px;
+	border-radius: 10px; 
+}
+.buffer {
+	height: 8rem;
+	left: 5px;
+}
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-xl {
+	padding: 1rem 1rem;
+}
+.btn-dark  {
+	background-color: #F34D0F;
+	border-color: #F34D0F;
+	transition: all 2s;
+}
+.btn-dark:hover {
+	background-color: #C63600;
+	border-width: 2px;
+}
+.btn-dark:active {
+	background-color: #EB6431;
+	border-color:  #EB6431;
+	transform: scale(1.5);
+
+}
+.h {
+	position: relative;
+	padding: 65px 0;
+}
